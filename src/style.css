@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+nav > h3{
+    margin-right: auto;
+    color: rgb(179, 177, 246);
+    font-weight:700;
+    font-size: 24px;
+} 
+nav > h4{
+    margin-right: 20px;
+    color: #fff;
+    font-weight:600;
+    font-size: 18px;
+} 
+nav > img{
+    height: 60px;
+    margin-right: 7px;
+}
+
+main{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #282D35;
+    padding: 57px 27px;
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: right 0px top 20px;
+    background-size: 30%;
+}
+main > h1{
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.main--facts{
+    margin-top: 40px;
+}
+
+.main--facts > li{
+    padding-block: 10px;
+    font-size: 18px; 
+}
+
+.main--facts > li::marker{
+    color:#61DAFB;
+    font-size: 1.4 rem;
+}
+
+.nav1{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: whitesmoke;
+}
+
+.nav1 > h4{
+    color: #000;
+    position:sticky;
+    left: 85%;
+}
+
+section{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.section-header{
+    display: flex;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.main1--image{
+    align-self: center;
+}
+
+.card{
+    width: auto;
+    max-width: 300px;
+    font-size: 13px;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+
+.card--star{
+    height:14px;
+}
+
+.gray{
+    color: #918e9b;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cardlist{
+    flex-direction: row;
+    margin: auto;
+    justify-items: center;
+    height: auto;
+}
+
+.footer--title{
+    font-weight: 300;
+    font-size: 17px;
+    height : 20px;
+    margin-left: auto;
+}
